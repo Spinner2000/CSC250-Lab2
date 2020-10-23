@@ -11,7 +11,7 @@ public class GolfClub extends Object{
 	
 	public GolfClub(String s)
 	{
-		String[] parts = s.split(":");
+		String[] parts = s.split(",");
 		this.club = parts[0];
 		this.distance = Integer.parseInt(parts[1]);
 	}

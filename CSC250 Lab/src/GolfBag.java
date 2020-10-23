@@ -31,9 +31,6 @@ public class GolfBag extends Object {
 				if(Integer.parseInt(distance)<this.clubs.get(i+1).distance()) {
 					System.out.println("Try Using A "+this.clubs.get(i).club());
 				}
-				else {
-						System.out.println("Try Using A "+this.clubs.get(i).club());
-				}
 			}
 			
 		}
